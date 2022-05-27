@@ -1,0 +1,125 @@
+*{margin: 0; padding: 0;}
+
+/* ==================================NavBar ========================================= */
+
+.nav-bar{
+    width: 70vw;
+    /* margin: 0  5rem 0rem 0 ; */
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar-list{
+    width: 100%;
+    display: flex;
+    margin: 5rem;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.nav-bar-list>li{
+    font-weight:bold;
+    font-size: small;
+}
+
+
+/* ============================== Rachel Green ================================ */
+
+.Rachel-Green{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0rem 0 5rem;
+}
+
+.Rachel-Green-text{
+    margin: 5.5rem 0 0 0;
+    width: auto;
+    height: auto;
+}
+
+.Rachel-Green-text>p{
+    width: 55%;
+}
+
+.Rachel-Green-text>button{
+    margin: 2rem 0 0 0;
+    width: 20%;
+    height: auto;
+    padding: 0.8rem;
+    background-color: rgb(28, 201, 43);
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+.Green-Box{
+    background-color: rgb(48, 190, 48);
+    width: 40vh;
+    height: 70vh;
+    position: absolute;
+    top:0;  
+    right: 0;
+    z-index: -1;
+    margin-right: 20rem;
+
+}
+
+/* ======================================== My Main Hustle ============================================== */
+
+
+.Main-Hustle-container{
+    display: flex;
+
+}
+
+
+.Main-Hustle{
+    background-image: url('/Images/bg.png');
+    width: 300px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.Main-Hustle>h1{
+    height: 5px;
+    width: 5px;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+
+.Hustle-Desc{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    width: 40%;
+    height: inherit;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.Hustle-Desc>div{
+    text-align: start;
+    justify-content: start;
+    margin-left: 2rem;
+    margin: 0.5rem;
+}
+
+.Hustle-Desc>div>p{
+    font-size: small;
+}
+
+/* ========================================================================================= */
+
+.My-Work{
+    width: 100vw;
+    text-align: center;
+}
+
+.My-Work>h1{font-size: 4rem;}
+.My-Work>p{margin-top: 3rem}
